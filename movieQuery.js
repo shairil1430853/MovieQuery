@@ -8,20 +8,25 @@ var movieList = [
 ];
 
 function getMovieTitle( index ){
-  //add code
+  Return.movieList[3].title;
 }
 
 console.log(getMovieTitle(3));
 
 function addMovie( movie ){
-  //add code
+  movieList.push( movie );
+  Return movieList;
 }
 
-var newMovie = {};
+var newMovie = {
+  title: "Silence of the lamb", year: "1988", length: 155, rating: "8.5", genre: "Suspense" 
+};
 console.log(addMovie(newMovie));
 
 function movieByRating(){
   //add code
+  moviesrt = movieList;
+  moviesrt.sort(function(va,vb)Return va.rating, vb.rating);
 }
 
 console.log(movieByRating());
